@@ -1,0 +1,14 @@
+.hero {
+    position: relative;
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+}
+
+.hero-img-lines {
+    margin: auto;
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
