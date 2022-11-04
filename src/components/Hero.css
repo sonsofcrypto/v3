@@ -1,14 +1,102 @@
+.hero-container {
+    position: relative;
+    background-color: transparent;
+    height: 960px;
+    overflow: visible;
+    background-image: url('/public/images2/hero-bg.png');
+    background-image: -webkit-image-set(
+            url('/public/images2/hero-bg.png') 1x,
+            url('/public/images2/hero-bg@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images2/hero-bg.png') 1x,
+            url('/public/images2/hero-bg@2x.png') 2x);
+}
+
 .hero {
     position: relative;
-    display: flex;
     overflow: visible;
-    justify-content: center;
+    background-color: transparent;
+}
+
+.hero-img-logo {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -7px;
+    display: block;
+    background-color: transparent;
+    max-width: 100%;
+    z-index: 20;
 }
 
 .hero-img-lines {
+    height: 960px;
     margin: auto;
     background-color: transparent;
+    background-image: url('/public/images2/hero-lines.png');
+    background-image: -webkit-image-set(
+            url('/public/images2/hero-lines.png') 1x,
+            url('/public/images2/hero-lines@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images2/hero-lines.png') 1x,
+            url('/public/images2/hero-lines@2x.png') 2x);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+.hero-img-mountains, .hero-img-stars {
+    margin: 0 auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: transparent;
+    position: absolute;
+    z-index: 15;
+}
+
+.hero-img-stars {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 474px;
+    background-image: url('/public/images2/hero-stars.png');
+    background-image: -webkit-image-set(
+            url('/public/images2/hero-stars.png') 1x,
+            url('/public/images2/hero-stars@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images2/hero-stars.png') 1x,
+            url('/public/images2/hero-stars@2x.png') 2x);
+    background-repeat: repeat-x;
+}
+
+.hero-img-mountains {
+    top: 474px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 75px;
+    background-image: url('/public/images2/hero-mountains.png');
+    background-image: -webkit-image-set(
+            url('/public/images2/hero-mountains.png') 1x,
+            url('/public/images2/hero-mountains@2x.png') 2x); /* Temporary fallback for Chrome and Safari browsers until they support 'image-set()' better */
+    background-image: image-set(
+            url('/public/images2/hero-mountains.png') 1x,
+            url('/public/images2/hero-mountains@2x.png') 2x);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.hero-img-palms {
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    position: absolute;
+    top: 86px;
+    z-index: 25;
+}
+
+.hero-img-palms-left {
+    left: -121px;
+}
+
+.hero-img-palms-right {
+    right: -126px;
 }
