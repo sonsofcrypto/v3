@@ -29,9 +29,9 @@
 }
 
 .hero-img-lines {
-    height: 960px;
     margin: auto;
     background-color: transparent;
+    height: 960px;
     background-image: url('/public/images2/hero-lines.png');
     background-image: -webkit-image-set(
             url('/public/images2/hero-lines.png') 1x,
@@ -39,9 +39,11 @@
     background-image: image-set(
             url('/public/images2/hero-lines.png') 1x,
             url('/public/images2/hero-lines@2x.png') 2x);
-    background-position: bottom center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
     z-index: 10;
+
 }
 
 .hero-img-mountains, .hero-img-stars {
@@ -99,4 +101,37 @@
 
 .hero-img-palms-right {
     right: -126px;
+}
+
+@media only screen and (max-width: 900px) {
+    .hero-container {
+        height: calc(100vw * 1.0);
+        overflow: clip;
+    }
+    .hero-img-palms {
+        top: calc(100vw * 0.071666);
+        max-height: 100%;
+    }
+
+    .hero-img-palms-left {
+        left: calc(100vw * -0.25);
+    }
+
+    .hero-img-palms-right {
+        right: calc(100vw * -0.25);
+    }
+
+    .hero-container {
+        background-size: contain;
+    }
+
+    .hero-img-mountains {
+        top: calc(100vw * 0.515);
+        height: calc(100vw * 0.0625);
+        background-size: cover;
+    }
+
+    .hero-img-lines {
+        height: calc(100vw * 1.0);
+    }
 }
