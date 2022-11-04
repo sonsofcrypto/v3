@@ -30,6 +30,13 @@ const Hero = (props) => {
                          }
                          src={'images2/hero-logo.png'}
                     />
+                    <img className='hero-img-wsb'
+                         srcSet={
+                             'images2/meme-wsb.png 1x, ' +
+                             'images2/meme-wsb@2x.png 2x'
+                         }
+                         src={'images2/meme-wsb.png'}
+                    />
                 </div>
             </div>
         </div>

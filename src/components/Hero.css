@@ -103,6 +103,15 @@
     right: -126px;
 }
 
+.hero-img-wsb {
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    bottom: -270px;
+    left: -90px;
+    z-index: 25;
+}
+
 @media only screen and (max-width: 900px) {
     .hero-container {
         height: calc(100vw * 1.0);
@@ -123,6 +132,7 @@
 
     .hero-container {
         background-size: contain;
+        overflow: visible;
     }
 
     .hero-img-mountains {
@@ -133,5 +143,14 @@
 
     .hero-img-lines {
         height: calc(100vw * 1.0);
+    }
+
+    .hero-img-wsb {
+        margin: 0 auto;
+        width: 40vw;
+        bottom: -11vw;
+        left: -10vw;
+        z-index: 25;
+        overflow: visible;
     }
 }
