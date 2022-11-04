@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/v3/static/css/main.3cf038e2.css",
-    "main.js": "/v3/static/js/main.94f97439.js",
+    "main.css": "/v3/static/css/main.bd71df4b.css",
+    "main.js": "/v3/static/js/main.94d7d316.js",
     "static/media/footer-bg.jpg": "/v3/static/media/footer-bg.36ccbca3522c2e3e22d6.jpg",
     "static/media/Shrikhand-Regular.ttf": "/v3/static/media/Shrikhand-Regular.5ff5e889191a6c359fa4.ttf",
     "static/media/Bungee-Regular.ttf": "/v3/static/media/Bungee-Regular.3d95fa68283102c29cd9.ttf",
@@ -20,11 +20,11 @@
     "static/media/RobotoMono-Regular.ttf": "/v3/static/media/RobotoMono-Regular.418a8f9f65ccad0918af.ttf",
     "static/media/RobotoMono-Medium.ttf": "/v3/static/media/RobotoMono-Medium.e04fa2d8ef59775dc652.ttf",
     "index.html": "/v3/index.html",
-    "main.3cf038e2.css.map": "/v3/static/css/main.3cf038e2.css.map",
-    "main.94f97439.js.map": "/v3/static/js/main.94f97439.js.map"
+    "main.bd71df4b.css.map": "/v3/static/css/main.bd71df4b.css.map",
+    "main.94d7d316.js.map": "/v3/static/js/main.94d7d316.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cf038e2.css",
-    "static/js/main.94f97439.js"
+    "static/css/main.bd71df4b.css",
+    "static/js/main.94d7d316.js"
   ]
 }
