@@ -13,7 +13,7 @@
 
 .wallet-section .quotes {
     position: absolute;
-    right: 0;
+    right: 12px;
     top: -4%;
     z-index: 20;
 }
@@ -37,6 +37,67 @@
 
 .wallet-section-meme {
     position: absolute;
-    right: -6%;
+    right: -7%;
     bottom: -3%;
+}
+
+@media only screen and (max-width: 1150px) {
+    .wallet-section .quotes h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .wallet-section .quotes {
+        top: 0;
+    }
+
+    .wallet-section-img {
+        max-width: 130%;
+        left: -10%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .wallet-section .quotes {
+        top: 2%;
+    }
+
+    .wallet-section .quotes h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .wallet-section-body {
+        max-width: unset;
+        padding-top: 70%;
+        padding-bottom: 58vw;
+        z-index: 15;
+    }
+
+    .wallet-section-meme {
+        position: absolute;
+        margin: auto 0;
+        max-width: 100%;
+        bottom: -17vw;
+        left: -8vw;
+        z-index: 10;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .wallet-section-img { top: 0%; }
+    .wallet-section-body { padding-top: 78%; }
+}
+
+@media only screen and (max-width: 650px) {
+    .wallet-section-img { top: 0%; }
+    .wallet-section .quotes h2 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .wallet-section-img { max-width: 132%; }
+    .wallet-section .quotes { display: none; }
 }
