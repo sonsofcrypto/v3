@@ -1,0 +1,42 @@
+.wallet-section {
+    background-color: transparent;
+    overflow: visible;
+    position: relative;
+}
+
+.wallet-section-img {
+    position: absolute;
+    left: -11%;
+    top: -3%;
+    z-index: 2;
+}
+
+.wallet-section .quotes {
+    position: absolute;
+    right: 0;
+    top: -4%;
+    z-index: 20;
+}
+
+.wallet-section .quotes li {
+    text-align: right;
+}
+
+.wallet-section-body {
+    padding-top: 55%;
+    max-width: 55%;
+}
+
+.wallet-section-body h2 {
+    display: inline;
+}
+
+.wallet-section-body .color-palette-7 {
+    color: #FF38AB;
+}
+
+.wallet-section-meme {
+    position: absolute;
+    right: -6%;
+    bottom: -3%;
+}

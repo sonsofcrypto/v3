@@ -67,6 +67,7 @@
             url('/public/images2/hero-stars.png') 1x,
             url('/public/images2/hero-stars@2x.png') 2x);
     background-repeat: repeat-x;
+    background-size: contain;
 }
 
 .hero-img-mountains {
@@ -139,6 +140,10 @@
         top: calc(100vw * 0.515);
         height: calc(100vw * 0.0625);
         background-size: cover;
+    }
+
+    .hero-img-stars {
+        height: calc(100vw * 0.45);
     }
 
     .hero-img-lines {
