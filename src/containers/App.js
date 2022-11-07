@@ -8,6 +8,7 @@ import {useSections} from "../hoocks/useSections";
 import Hero from "../components/Hero";
 import Overview from "../components/Overview";
 import WalletSection from "../components/WalletSection";
+import VideoSection from "../components/VideoSection";
 // import Wallet from "../components/Wallet";
 // import Roadmap from "../components/Roadmap";
 // import Video from "../components/Video";
@@ -30,6 +31,7 @@ function App() {
             <Hero/>
             <Overview/>
             <WalletSection/>
+            <VideoSection/>
             {sections.map((section, i) => (
                 <Section
                     title={ section.title }

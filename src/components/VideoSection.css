@@ -1,0 +1,17 @@
+.video-section {
+}
+
+.video-section-container {
+    border: solid 5px #FF38AB;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    box-shadow: 54px 54px #FF38AB;
+}
+
+.video-section-video {
+    aspect-ratio: 16 / 9;
+}
+
+@media only screen and (max-width: 900px) {
+    .video-section-container { box-shadow: 20px 20px #FF38AB; }
+}
