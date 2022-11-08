@@ -9,12 +9,7 @@ import Hero from "../components/Hero";
 import Overview from "../components/Overview";
 import WalletSection from "../components/WalletSection";
 import VideoSection from "../components/VideoSection";
-// import Wallet from "../components/Wallet";
-// import Roadmap from "../components/Roadmap";
-// import Video from "../components/Video";
-// import Mission from "../components/Mission";
-// import Products from "../components/Products";
-// import Team from "../components/Team";
+import RoadmapSection from "../components/RoadmapSection";
 
 function App() {
     const [sections, setSections] = useState([]);
@@ -32,6 +27,7 @@ function App() {
             <Overview/>
             <WalletSection/>
             <VideoSection/>
+            <RoadmapSection/>
             {sections.map((section, i) => (
                 <Section
                     title={ section.title }

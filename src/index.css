@@ -216,3 +216,12 @@ h2 {
 /*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
 /*    monospace;*/
 /*}*/
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        text-shadow: 5px 5px #DD0582;
+        font-size: 64px;
+        line-height: 76px;
+    }
+}

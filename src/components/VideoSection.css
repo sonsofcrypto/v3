@@ -2,10 +2,12 @@
 }
 
 .video-section-container {
+    position: relative;
     border: solid 5px #FF38AB;
     aspect-ratio: 16 / 9;
     display: flex;
     box-shadow: 54px 54px #FF38AB;
+    z-index: 20;
 }
 
 .video-section-video {
