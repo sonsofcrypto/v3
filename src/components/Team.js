@@ -8,9 +8,15 @@ const Team = (props) => {
             <h1>Team</h1>
             <div className='team-members-wrapper'>
                 <div className='team-member'>
-                    <a href='https://twitter.com/web3d3v'>
+                    <a href='https://twitter.com/web3d3v' target="_blank">
                         <h3>@web3d3v</h3>
-                        <object type="image/svg+xml" data="images/team-web3d3v.svg" className='svg'>team_web3d3v</object>
+                        <img className='svg'
+                             srcSet={
+                                 'images2/web3dev.png 1x, ' +
+                                 'images2/web3dev@2x.png 2x'
+                             }
+                             src={'images2/web3dev.png'}
+                        />
                     </a>
                     <ul>
                         <li>worked for number of biggest companies in crypto</li>
@@ -18,9 +24,15 @@ const Team = (props) => {
                     </ul>
                 </div>
                 <div className='team-member'>
-                    <a href='https://twitter.com/web3dgn'>
+                    <a href='https://twitter.com/web3dgn' target="_blank">
                         <h3>@web3dgn</h3>
-                        <object type="image/svg+xml" data="images/team-web3dgn.svg" className='svg'>team-web3dgn</object>
+                        <img className='svg'
+                             srcSet={
+                                 'images2/web3dev.png 1x, ' +
+                                 'images2/web3dev@2x.png 2x'
+                             }
+                             src={'images2/web3dev.png'}
+                        />
                     </a>
                     <ul>
                         <li>senior dev with two decades of experience</li>
@@ -28,9 +40,15 @@ const Team = (props) => {
                     </ul>
                 </div>
                 <div className='team-member'>
-                    <a href='https://twitter.com/web3dsgn'>
-                        <h3>@web3d3v</h3>
-                        <object type="image/svg+xml" data="images/team-web3dsn.svg" className='svg'>team_web3dsn</object>
+                    <a href='https://twitter.com/hashtag/web3' target="_blank">
+                        <h3>web3dsgn</h3>
+                        <img className='svg'
+                             srcSet={
+                                 'images2/web3design.png 1x, ' +
+                                 'images2/web3design@2x.png 2x'
+                             }
+                             src={'images2/web3design.png'}
+                        />
                     </a>
                     <ul>
                         <li>serion ex-Apple designer</li>

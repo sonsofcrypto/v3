@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: start;
     align-content: center;
     text-align: left;
@@ -20,20 +20,18 @@
     margin-left: 6px;
     margin-right: 6px;
     margin-bottom: 24px;
-    min-width: 200px;
 }
 
 .team-member .svg, .team-member a {
     margin: 0 auto;
+    display: block;
+    max-width: 100%;
 }
 
 .team-member ul {
     padding-left: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-    .team-member {
-        max-width: 100%;
-        min-width: 150px;
-    }
+@media only screen and (max-width: 900px) {
+    .team-members-wrapper { justify-content: space-around; }
 }
