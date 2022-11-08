@@ -13,7 +13,7 @@
 
 .wallet-section .quotes {
     position: absolute;
-    right: 12px;
+    right: 24px;
     top: -4%;
     z-index: 20;
 }
@@ -42,8 +42,8 @@
     right: -5%;
     bottom: -3%;
     width: 100%;
-    max-width: 675px;
-    max-height: 794px;
+    max-width: 620px;
+    max-height: 620px;
     z-index: 5;
 }
 
@@ -65,6 +65,10 @@
 
 @media only screen and (max-width: 1024px) {
     .wallet-section-meme { right: -9%; }
+}
+
+@media only screen and (max-width: 950px) {
+    .wallet-section-meme { max-width: 580px; max-height: 580px; }
 }
 
 @media only screen and (max-width: 900px) {
@@ -97,11 +101,11 @@
 
     .wallet-section-meme {
         position: relative;
+        display: block;
         margin: 0 auto;
-        width: 100%;
         left: 0; right: 0;
-        margin-top: -10vw;
-        margin-bottom: -22vw;
+        margin-top: -6vw;
+        margin-bottom: -15vw;
     }
 }
 
@@ -110,10 +114,6 @@
     .wallet-section-img {
         max-width: 132%;
         top: 15.5%;
-    }
-    .wallet-section-meme {
-        margin-top: -10vw;
-        margin-bottom: -30vw;
     }
 }
 

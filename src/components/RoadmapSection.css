@@ -11,6 +11,7 @@
     overflow: visible;
     background-color: transparent;
     margin-top: 204px;
+    flex: 1;
 }
 
 .roadmap-normal {
@@ -70,6 +71,14 @@
     z-index: 5;
 }
 
+.roadmap-card-meme {
+    position: absolute;
+    display: block;
+    right: 3%;
+    bottom: 3%;
+    max-width: 50%;
+}
+
 @media only screen and (max-width: 900px) {
     .roadmap-normal { flex-direction: column; row-gap: 42px; }
     .roadmap-card:first-of-type { z-index: 15; margin: unset; }
@@ -78,5 +87,10 @@
     .roadmap-lines {
         height: 100%;
         margin-top: -272px;
+    }
+    .roadmap-card-meme {
+        position: relative;
+        margin: 0 auto;
+        max-width: 50%;
     }
 }

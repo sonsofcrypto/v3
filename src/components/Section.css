@@ -33,6 +33,11 @@
     z-index: 20;
 }
 
+.roadmap-card-meme {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
 @media only screen and (max-width: 1045px) {
     .section-image { right: -75px; }
 }

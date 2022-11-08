@@ -20,6 +20,13 @@ const RoadmapSection = (props) => {
                             <li>Web3 SDK</li>
                             <li>Tradfi onramps</li>
                         </ul>
+                        <img className='roadmap-card-meme'
+                             srcSet={
+                                 'images2/meme-wsb.png 1x, ' +
+                                 'images2/meme-wsb@2x.png 2x'
+                             }
+                             src={'images2/meme-wsb.png'}
+                        />
                     </div>
                     <div className='roadmap-card'>
                         <h2>Phase 2</h2>
@@ -39,6 +46,13 @@ const RoadmapSection = (props) => {
                             <li>web3 social media</li>
                             <li>web3 everything</li>
                         </ul>
+                        <img className='roadmap-card-meme'
+                             srcSet={
+                                 'images2/meme-wojak-bliss.png 1x, ' +
+                                 'images2/meme-wojak-bliss@2x.png 2x'
+                             }
+                             src={'images2/meme-wojak-bliss.png'}
+                        />
                     </div>
                 </div>
             </div>
