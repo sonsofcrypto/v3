@@ -13,7 +13,7 @@ const WalletSection = (props) => {
         'Open source MIT',
     ]
     return (
-        <div className='wallet-section content-wrapper content-wrapper-padding'>
+        <div className='wallet-section content-wrapper content-wrapper-padding' id='wallet'>
             <ul className='quotes'>
                 {quotes.map((quote, i) => (
                     <li key={i}>
