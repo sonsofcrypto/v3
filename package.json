@@ -2,7 +2,7 @@
   "name": "sonsofcrypo",
   "version": "3.0.0",
   "private": true,
-  "homepage": "https://sonsofcrypto.com/",
+  "homepage": "https://sonsofcrypto.com/v3",
   "dependencies": {
     "gh-pages": "*",
     "react": "*",

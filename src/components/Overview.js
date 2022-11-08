@@ -7,7 +7,7 @@ const Overview = (props) => {
         <div className='overview content-wrapper content-wrapper-padding'>
             <div className='overview-normal'>
                 <div className='overview-card'>
-                    <h1>wallet</h1>
+                    <h1><a href='#wallet'>wallet</a></h1>
                     <ul>
                         <li>By degens for degens</li>
                         <li>Self custodial</li>
@@ -22,7 +22,7 @@ const Overview = (props) => {
                     </ul>
                 </div>
                 <div className='overview-card'>
-                    <h1>lib</h1>
+                    <h1><a href='#web3lib'>lib</a></h1>
                     <ul>
                         <li>Multi chain support L1s & L2s</li>
                         <li>ERCs, SLPs, NFTs</li>
@@ -32,7 +32,7 @@ const Overview = (props) => {
                     </ul>
                 </div>
                 <div className='overview-card'>
-                    <h1>apps</h1>
+                    <h1><a href='#web3apps'>apps</a></h1>
                     <ul>
                         <li>E2E messaging using wallet for identity and authentication</li>
                         <li>Decentralized, uncesorable social media</li>
@@ -42,7 +42,7 @@ const Overview = (props) => {
             </div>
             <div className='overview-stack'>
                 <div className='overview-card'>
-                    <h1>wallet</h1>
+                    <h1><a href='#wallet'>wallet</a></h1>
                     <ul>
                         <li>By degens for degens</li>
                         <li>Self custodial</li>
@@ -58,7 +58,7 @@ const Overview = (props) => {
                 </div>
                 <div className='overview-card overview-card-stack' >
                     <div className='overview-card'>
-                        <h1>lib</h1>
+                        <h1><a href='#web3lib'>lib</a></h1>
                         <ul>
                             <li>Multi chain support L1s & L2s</li>
                             <li>ERCs, SLPs, NFTs</li>
@@ -68,7 +68,7 @@ const Overview = (props) => {
                         </ul>
                     </div>
                     <div className='overview-card'>
-                        <h1>apps</h1>
+                        <h1><a href='#web3apps'>apps</a></h1>
                         <ul>
                             <li>E2E messaging using wallet for identity and authentication</li>
                             <li>Decentralized, uncesorable social media</li>
