@@ -4,11 +4,12 @@ import './Team.css';
 const Team = (props) => {
     const { progress } = props;
     return (
-        <div className='margin-auto margin-h-2 team-container'>
+        <div className='section content-wrapper content-wrapper-padding'>
             <h1>Team</h1>
             <div className='team-members-wrapper'>
                 <div className='team-member'>
                     <a href='https://twitter.com/web3d3v'>
+                        <h3>@web3d3v</h3>
                         <object type="image/svg+xml" data="images/team-web3d3v.svg" className='svg'>team_web3d3v</object>
                     </a>
                     <ul>
@@ -18,6 +19,7 @@ const Team = (props) => {
                 </div>
                 <div className='team-member'>
                     <a href='https://twitter.com/web3dgn'>
+                        <h3>@web3dgn</h3>
                         <object type="image/svg+xml" data="images/team-web3dgn.svg" className='svg'>team-web3dgn</object>
                     </a>
                     <ul>
@@ -27,6 +29,7 @@ const Team = (props) => {
                 </div>
                 <div className='team-member'>
                     <a href='https://twitter.com/web3dsgn'>
+                        <h3>@web3d3v</h3>
                         <object type="image/svg+xml" data="images/team-web3dsn.svg" className='svg'>team_web3dsn</object>
                     </a>
                     <ul>
@@ -34,20 +37,6 @@ const Team = (props) => {
                         <li>experienced in designing DeFi products</li>
                     </ul>
                 </div>
-                <div className='team-member'>
-                    <object type="image/svg+xml" data="images/team-anondev.svg" className='svg'>team_anondev</object>
-                    <ul>
-                        <li>senior kotlin ninja mercenary</li>
-                        <li>two decades of engineering experience</li>
-                    </ul>
-                </div>
-                {/*<div className='team-member'>*/}
-                {/*    <img src='images/team-anondev.svg'/>*/}
-                {/*    <ul>*/}
-                {/*        <li>worked for biggest companies in crypto</li>*/}
-                {/*        <li>nearly a decade in crypto</li>*/}
-                {/*    </ul>*/}
-                {/*</div>*/}
             </div>
         </div>
     )

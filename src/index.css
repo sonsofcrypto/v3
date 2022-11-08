@@ -196,6 +196,18 @@ h2 {
     text-transform: uppercase;
 }
 
+h3 {
+    font-family: "Bungee";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FF38AB;
+}
+
+a h3 { text-decoration: none; }
+a:hover h3 { text-shadow: 3px 3px #F0C21D; }
+
 .color-palette-0 { color: #F0421D }
 .color-palette-1 { color: #F08D1D }
 .color-palette-2 { color: #F0C21D }

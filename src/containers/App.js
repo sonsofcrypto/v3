@@ -10,6 +10,7 @@ import Overview from "../components/Overview";
 import WalletSection from "../components/WalletSection";
 import VideoSection from "../components/VideoSection";
 import RoadmapSection from "../components/RoadmapSection";
+import Team from "../components/Team";
 
 function App() {
     const [sections, setSections] = useState([]);
@@ -39,6 +40,7 @@ function App() {
                     { section.body }
                 </Section>
             ))}
+            <Team/>
             <Footer/>
         </ErrorBoundary>
     )

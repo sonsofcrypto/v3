@@ -1,0 +1,39 @@
+.team-members-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.team-members-wrapper a {
+    text-decoration: none;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 24px;
+    min-width: 200px;
+}
+
+.team-member .svg, .team-member a {
+    margin: 0 auto;
+}
+
+.team-member ul {
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .team-member {
+        max-width: 100%;
+        min-width: 150px;
+    }
+}
