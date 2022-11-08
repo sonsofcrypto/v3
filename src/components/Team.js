@@ -51,7 +51,7 @@ const Team = (props) => {
                         />
                     </a>
                     <ul>
-                        <li>serion ex-Apple designer</li>
+                        <li>senior design contractors</li>
                         <li>experienced in designing DeFi products</li>
                     </ul>
                 </div>
