@@ -31,6 +31,7 @@ function App() {
             <RoadmapSection/>
             {sections.map((section, i) => (
                 <Section
+                    id={section.id}
                     title={ section.title }
                     quotes={ section.quotes }
                     imgName={ section.imgName }

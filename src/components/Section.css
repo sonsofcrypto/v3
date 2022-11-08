@@ -6,6 +6,7 @@
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
+    max-width: 90%;
 }
 
 .quotes {
@@ -16,10 +17,14 @@
 
 .section-image {
     position: absolute;
-    right: -110px;
+    right: -50px;
     bottom: 0;
     top: 0;
     margin: auto 0;
+    display: block;
+    width: 100%;
+    max-width: 620px;
+    max-height: 620px;
 }
 
 .section-body {
@@ -28,13 +33,24 @@
     z-index: 20;
 }
 
+@media only screen and (max-width: 1045px) {
+    .section-image { right: -75px; }
+}
+
+@media only screen and (max-width: 950px) {
+    .section-image { max-width: 580px; max-height: 580px; }
+}
+
 @media only screen and (max-width: 900px) {
-    .section-body { width: auto; }
+    .section-body { width: 100%; }
     .section-image {
         position: relative;
-        margin: auto 0;
-        margin-left: calc(-50% + 220px);
-        max-width: 100%;
+        left: unset; right: unset; top: unset; bottom: unset;
+        margin: 0 auto;
+        margin-top: -9vw;
+        margin-bottom: 0vw;
+        max-width: 620px;
+        max-height: 620px;
     }
     .section {
         margin-top: 92px;
@@ -42,20 +58,5 @@
     }
     .section:first-of-type { margin-top: 184px; }
     .section:last-of-type { margin-bottom: 184px; }
-}
-
-@media only screen and (max-width: 800px) {
-    .section-image { margin-left: calc(-25%); }
-}
-
-@media only screen and (max-width: 620px) {
-    .section-image { margin-left: calc(-30%); }
-}
-
-@media only screen and (max-width: 520px) {
-    .section-image { margin-left: calc(-35%); }
-}
-
-@media only screen and (max-width: 420px) {
-    .section-image { margin-left: calc(-42%); }
+    .section h1 { max-width: 100%; }
 }

@@ -2,9 +2,9 @@ import React from 'react';
 import './Section.css';
 
 const Section = (props) => {
-    const {title, quotes, imgName, qoutesPalleteIds} = props;
+    const {id, title, quotes, imgName, qoutesPalleteIds} = props;
     return (
-        <div className='section content-wrapper content-wrapper-padding'>
+        <div className='section content-wrapper content-wrapper-padding' id={id}>
             <ul className='quotes'>
                 {quotes.map((quote, i) => (
                     <li key={i}>
