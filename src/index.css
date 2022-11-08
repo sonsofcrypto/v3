@@ -163,14 +163,22 @@ button {
 }
 
 .content-wrapper {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     background-color: black;
 }
 
 .content-wrapper-padding {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.section {
+    margin-top: 184px;
+    margin-bottom: 184px;
+    background-color: transparent;
+    position: relative;
+    overflow: visible;
 }
 
 h1 {
@@ -217,17 +225,6 @@ a:hover h3 { text-shadow: 3px 3px #F0C21D; }
 .color-palette-6 { color: #10B0A8 }
 .color-palette-7 { color: #F0328E }
 
-/* #FF38AB */
-
-/*.main-content-wrapper {*/
-/*  background: linear-gradient(to top, #2C3B68, #171515);*/
-/*  margin: 0 auto;*/
-/*}*/
-
-/*code {*/
-/*  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',*/
-/*    monospace;*/
-/*}*/
 
 @media only screen and (max-width: 600px) {
 
@@ -236,4 +233,21 @@ a:hover h3 { text-shadow: 3px 3px #F0C21D; }
         font-size: 64px;
         line-height: 76px;
     }
+
+    h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .content-wrapper-padding {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .section {
+        margin-top: 48px;
+        margin-bottom: 48px;
+    }
+    .section:first-of-type { margin-top: 48px; }
+    .section:last-of-type { margin-bottom: 48px; }
 }
