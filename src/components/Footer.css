@@ -58,10 +58,12 @@
 
 .footer-links-text ul li a {
     color: #FFFFFFB0;
+    text-decoration: none;
 }
 
 .footer-links-text ul li:hover {
     transform: unset;
+    text-decoration: underline;
 }
 
 .footer-links-two-rows ul:first-child {
