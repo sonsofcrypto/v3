@@ -10,6 +10,13 @@ const RoadmapSection = (props) => {
                 <h1>Roadmap</h1>
                 <div className='roadmap-normal'>
                     <div className='roadmap-card'>
+                        <img className='roadmap-card-lines'
+                             srcSet={
+                                 'images2/lines-1.png 1x, ' +
+                                 'images2/lines-1@2x.png 2x'
+                             }
+                             src={'images2/lines-1.png'}
+                        />
                         <h2>Phase 1</h2>
                         <ul>
                             <li>MVP wallet for iOS, Android and Browser extension</li>
@@ -29,6 +36,13 @@ const RoadmapSection = (props) => {
                         />
                     </div>
                     <div className='roadmap-card'>
+                        <img className='roadmap-card-lines'
+                             srcSet={
+                                 'images2/lines-2.png 1x, ' +
+                                 'images2/lines-2@2x.png 2x'
+                             }
+                             src={'images2/lines-2.png'}
+                        />
                         <h2>Phase 2</h2>
                         <ul>
                             <li>Large directory of popular web3 dapps. Interacting with smart contracts natively in apps. Via decentralized chain networks directly. Not via centralized web2 APIs. Making it possible to interact with some of web3 dapps on mobile for the first time.</li>
@@ -39,6 +53,13 @@ const RoadmapSection = (props) => {
                         </ul>
                     </div>
                     <div className='roadmap-card'>
+                        <img className='roadmap-card-lines'
+                             srcSet={
+                                 'images2/lines-3.png 1x, ' +
+                                 'images2/lines-3@2x.png 2x'
+                             }
+                             src={'images2/lines-3.png'}
+                        />
                         <h2>Phase 3</h2>
                         <ul>
                             <li>Re-imagining most important web2 services for web3.</li>
