@@ -37,10 +37,10 @@ const WalletSection = (props) => {
             </div>
             <img className='wallet-section-meme'
                  srcSet={
-                     'images2/bull-pepe.png 1x, ' +
-                     'images2/bull-pepe@2x.png 2x'
+                     'images2/meme-large-pepe.png 1x, ' +
+                     'images2/meme-large-pepe@2x.png 2x'
                  }
-                 src={'images2/bull-pepe.png'}
+                 src={'images2/meme-large-pepe.png'}
             />
         </div>
     )
