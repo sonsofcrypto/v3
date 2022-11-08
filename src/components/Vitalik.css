@@ -4,17 +4,22 @@
     position: relative;
 }
 
-.vitalik-container .svg {
+.vitalik-img, .italik-img {
     margin: 0 auto;
-    left: 0; right: 0;
+    max-width: 100%;
+    height: auto;
 }
 
-.vitalik-container .svg:first-child {
+.italik-img {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.vitalik-img {
     animation: animateVitalik 9s linear infinite;
 }
 
-.vitalik-container .svg:last-child {
-    position: absolute;
+.italik-img {
     animation: animateItalik 9s linear infinite;
 }
 

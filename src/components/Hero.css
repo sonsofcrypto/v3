@@ -104,13 +104,16 @@
     right: -126px;
 }
 
-.hero-img-wsb {
+.hero-meme {
     margin: 0 auto;
     display: block;
     position: absolute;
-    bottom: -270px;
-    left: -90px;
-    z-index: 25;
+    overflow: visible;
+    z-index: 50;
+    width: 18vw;
+    max-width: 147px;
+    bottom: -12%;
+    left: 10%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -150,12 +153,10 @@
         height: calc(100vw * 1.0);
     }
 
-    .hero-img-wsb {
+    .hero-meme {
         margin: 0 auto;
-        width: 40vw;
-        bottom: -11vw;
-        left: -10vw;
-        z-index: 25;
-        overflow: visible;
+        width: 25vw;
+        bottom: -10vw;
+        left: -1vw;
     }
 }
