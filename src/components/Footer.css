@@ -1,20 +1,6 @@
 .footer-wrapper {
-    background-color: black;
-    background-image: url("/public/images/footer-bg.jpg");
-    background-position: center; /* Center the image */
-    background-repeat: repeat; /* Do not repeat the image */
-    background-size: cover;
+    background-color: #FF38AB;
     transition: all 0.1s ease-in-out;
-}
-
-.footer-spacer {
-    margin: 0 auto;
-    aspect-ratio: 16 / 12;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
 }
 
 .footer-content-wrapper {
@@ -65,8 +51,13 @@
     .footer-content-wrapper .tagline { font-size: 26px }
 }
 
+.footer-links-text {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .footer-links-text ul li a {
-    color: #FFFFFF50;
+    color: #FFFFFFB0;
 }
 
 .footer-links-text ul li:hover {
@@ -75,4 +66,19 @@
 
 .footer-links-two-rows ul:first-child {
     margin-top: 16px;
+}
+
+.footer-wrapper .soc-logo {
+    margin-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+.footer-wrapper .soc-logo a {
+    font-size: 32px;
+    text-decoration: line-through 3px #FF38AB;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-wrapper .soc-logo { display: block; }
 }
