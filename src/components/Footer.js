@@ -8,28 +8,28 @@ const Footer = (props) => {
                 <div className='footer-content-wrapper'>
                     <div className='footer-links footer-links-one-row'>
                         <ul>
-                            <li><a href="https://twitter.com/sonsofcryptolab" target="_blank"><img src='images2/social/twitter.svg'/></a></li>
-                            <li><a href="https://t.me/socweb3" target="_blank"><img src='images2/social/telegram.svg'/></a></li>
-                            <li><a href="https://discord.gg/DW8kUu6Q6E" target="_blank"><img src='images2/social/discord.svg'/></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCr5ZxjRnZUMcwEnYLqqRZWQ" target="_blank"><img src='images2/social/youtube.svg'/></a></li>
-                            <li><a href="https://sonsofcrypto.substack.com" target="_blank"><img src='images2/social/substack.svg'/></a></li>
-                            <li><a href="https://medium.com/@sonsofcrypto" target="_blank"><img src='images2/social/medium.svg'/></a></li>
-                            <li><a href="https://github.com/sonsofcrypto" target="_blank"><img src='images2/social/github.svg'/></a></li>
-                            <li><a href="mailto:sonsofcrypto@protonmail.com" target="_blank"><img src='images2/social/protonmail.svg'/></a></li>
+                            <li><a href="https://twitter.com/sonsofcryptolab" target="_blank"><img src='images/social/twitter.svg'/></a></li>
+                            <li><a href="https://t.me/socweb3" target="_blank"><img src='images/social/telegram.svg'/></a></li>
+                            <li><a href="https://discord.gg/DW8kUu6Q6E" target="_blank"><img src='images/social/discord.svg'/></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCr5ZxjRnZUMcwEnYLqqRZWQ" target="_blank"><img src='images/social/youtube.svg'/></a></li>
+                            <li><a href="https://sonsofcrypto.substack.com" target="_blank"><img src='images/social/substack.svg'/></a></li>
+                            <li><a href="https://medium.com/@sonsofcrypto" target="_blank"><img src='images/social/medium.svg'/></a></li>
+                            <li><a href="https://github.com/sonsofcrypto" target="_blank"><img src='images/social/github.svg'/></a></li>
+                            <li><a href="mailto:sonsofcrypto@protonmail.com" target="_blank"><img src='images/social/protonmail.svg'/></a></li>
                         </ul>
                     </div>
                     <div className='footer-links footer-links-two-rows'>
                         <ul>
-                            <li><a href="https://twitter.com/sonsofcryptolab" target="_blank"><img src='images2/social/twitter.svg'/></a></li>
-                            <li><a href="https://t.me/socweb3" target="_blank"><img src='images2/social/telegram.svg'/></a></li>
-                            <li><a href="https://discord.gg/DW8kUu6Q6E" target="_blank"><img src='images2/social/discord.svg'/></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCr5ZxjRnZUMcwEnYLqqRZWQ" target="_blank"><img src='images2/social/youtube.svg'/></a></li>
+                            <li><a href="https://twitter.com/sonsofcryptolab" target="_blank"><img src='images/social/twitter.svg'/></a></li>
+                            <li><a href="https://t.me/socweb3" target="_blank"><img src='images/social/telegram.svg'/></a></li>
+                            <li><a href="https://discord.gg/DW8kUu6Q6E" target="_blank"><img src='images/social/discord.svg'/></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCr5ZxjRnZUMcwEnYLqqRZWQ" target="_blank"><img src='images/social/youtube.svg'/></a></li>
                         </ul>
                         <ul>
-                            <li><a href="https://sonsofcrypto.substack.com" target="_blank"><img src='images2/social/substack.svg'/></a></li>
-                            <li><a href="https://medium.com/@sonsofcrypto" target="_blank"><img src='images2/social/medium.svg'/></a></li>
-                            <li><a href="https://github.com/sonsofcrypto" target="_blank"><img src='images2/social/github.svg'/></a></li>
-                            <li><a href="mailto:sonsofcrypto@protonmail.com" target="_blank"><img src='images2/social/protonmail.svg'/></a></li>
+                            <li><a href="https://sonsofcrypto.substack.com" target="_blank"><img src='images/social/substack.svg'/></a></li>
+                            <li><a href="https://medium.com/@sonsofcrypto" target="_blank"><img src='images/social/medium.svg'/></a></li>
+                            <li><a href="https://github.com/sonsofcrypto" target="_blank"><img src='images/social/github.svg'/></a></li>
+                            <li><a href="mailto:sonsofcrypto@protonmail.com" target="_blank"><img src='images/social/protonmail.svg'/></a></li>
                         </ul>
                     </div>
                     <div className='footer-links footer-links-text'>

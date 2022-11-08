@@ -12,10 +12,10 @@ const RoadmapSection = (props) => {
                     <div className='roadmap-card'>
                         <img className='roadmap-card-lines'
                              srcSet={
-                                 'images2/lines-1.png 1x, ' +
-                                 'images2/lines-1@2x.png 2x'
+                                 'images/lines-1.png 1x, ' +
+                                 'images/lines-1@2x.png 2x'
                              }
-                             src={'images2/lines-1.png'}
+                             src={'images/lines-1.png'}
                         />
                         <h2>Phase 1</h2>
                         <ul>
@@ -29,19 +29,19 @@ const RoadmapSection = (props) => {
                         </ul>
                         <img className='roadmap-card-meme'
                              srcSet={
-                                 'images2/meme-wsb.png 1x, ' +
-                                 'images2/meme-wsb@2x.png 2x'
+                                 'images/meme-wsb.png 1x, ' +
+                                 'images/meme-wsb@2x.png 2x'
                              }
-                             src={'images2/meme-wsb.png'}
+                             src={'images/meme-wsb.png'}
                         />
                     </div>
                     <div className='roadmap-card'>
                         <img className='roadmap-card-lines'
                              srcSet={
-                                 'images2/lines-2.png 1x, ' +
-                                 'images2/lines-2@2x.png 2x'
+                                 'images/lines-2.png 1x, ' +
+                                 'images/lines-2@2x.png 2x'
                              }
-                             src={'images2/lines-2.png'}
+                             src={'images/lines-2.png'}
                         />
                         <h2>Phase 2</h2>
                         <ul>
@@ -55,10 +55,10 @@ const RoadmapSection = (props) => {
                     <div className='roadmap-card'>
                         <img className='roadmap-card-lines'
                              srcSet={
-                                 'images2/lines-3.png 1x, ' +
-                                 'images2/lines-3@2x.png 2x'
+                                 'images/lines-3.png 1x, ' +
+                                 'images/lines-3@2x.png 2x'
                              }
-                             src={'images2/lines-3.png'}
+                             src={'images/lines-3.png'}
                         />
                         <h2>Phase 3</h2>
                         <ul>
@@ -69,10 +69,10 @@ const RoadmapSection = (props) => {
                         </ul>
                         <img className='roadmap-card-meme'
                              srcSet={
-                                 'images2/meme-wojak-bliss.png 1x, ' +
-                                 'images2/meme-wojak-bliss@2x.png 2x'
+                                 'images/meme-wojak-bliss.png 1x, ' +
+                                 'images/meme-wojak-bliss@2x.png 2x'
                              }
-                             src={'images2/meme-wojak-bliss.png'}
+                             src={'images/meme-wojak-bliss.png'}
                         />
                     </div>
                 </div>

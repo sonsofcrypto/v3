@@ -23,10 +23,10 @@ const WalletSection = (props) => {
             </ul>
             <img className='wallet-section-img'
                  srcSet={
-                     'images2/wallet-section-img.png 1x, ' +
-                     'images2/wallet-section-img@2x.png 2x'
+                     'images/wallet-section-img.png 1x, ' +
+                     'images/wallet-section-img@2x.png 2x'
                  }
-                 src={'images2/wallet-section-img.png'}
+                 src={'images/wallet-section-img.png'}
             />
             <div className='wallet-section-body'>
                 <h2 className='color-palette-7'>Best in class mobile & browser extension wallets. </h2>
@@ -37,10 +37,10 @@ const WalletSection = (props) => {
             </div>
             <img className='wallet-section-meme'
                  srcSet={
-                     'images2/meme-large-pepe.png 1x, ' +
-                     'images2/meme-large-pepe@2x.png 2x'
+                     'images/meme-large-pepe.png 1x, ' +
+                     'images/meme-large-pepe@2x.png 2x'
                  }
-                 src={'images2/meme-large-pepe.png'}
+                 src={'images/meme-large-pepe.png'}
             />
         </div>
     )

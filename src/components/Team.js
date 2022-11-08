@@ -12,10 +12,10 @@ const Team = (props) => {
                         <h3>@web3d3v</h3>
                         <img className='svg'
                              srcSet={
-                                 'images2/web3dev.png 1x, ' +
-                                 'images2/web3dev@2x.png 2x'
+                                 'images/web3dev.png 1x, ' +
+                                 'images/web3dev@2x.png 2x'
                              }
-                             src={'images2/web3dev.png'}
+                             src={'images/web3dev.png'}
                         />
                     </a>
                     <ul>
@@ -28,10 +28,10 @@ const Team = (props) => {
                         <h3>@web3dgn</h3>
                         <img className='svg'
                              srcSet={
-                                 'images2/web3dev.png 1x, ' +
-                                 'images2/web3dev@2x.png 2x'
+                                 'images/web3dev.png 1x, ' +
+                                 'images/web3dev@2x.png 2x'
                              }
-                             src={'images2/web3dev.png'}
+                             src={'images/web3dev.png'}
                         />
                     </a>
                     <ul>
@@ -44,10 +44,10 @@ const Team = (props) => {
                         <h3>web3dsgn</h3>
                         <img className='svg'
                              srcSet={
-                                 'images2/web3design.png 1x, ' +
-                                 'images2/web3design@2x.png 2x'
+                                 'images/web3design.png 1x, ' +
+                                 'images/web3design@2x.png 2x'
                              }
-                             src={'images2/web3design.png'}
+                             src={'images/web3design.png'}
                         />
                     </a>
                     <ul>

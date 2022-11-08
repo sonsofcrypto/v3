@@ -12,38 +12,38 @@ const Hero = (props) => {
                 <div className='hero content-wrapper content-wrapper-padding'>
                     <img className='hero-meme-wojak-bliss'
                          srcSet={
-                             'images2/meme-wojak-bliss.png 1x, ' +
-                             'images2/meme-wojak-bliss@2x.png 2x'
+                             'images/meme-wojak-bliss.png 1x, ' +
+                             'images/meme-wojak-bliss@2x.png 2x'
                          }
-                         src={'images2/meme-wojak-bliss.png'}
+                         src={'images/meme-wojak-bliss.png'}
                     />
                     <img className='hero-meme-pepe'
                          srcSet={
-                             'images2/meme-pepe.png 1x, ' +
-                             'images2/meme-pepe@2x.png 2x'
+                             'images/meme-pepe.png 1x, ' +
+                             'images/meme-pepe@2x.png 2x'
                          }
-                         src={'images2/meme-pepe.png'}
+                         src={'images/meme-pepe.png'}
                     />
                     <img className='hero-img-palms hero-img-palms-left'
                          srcSet={
-                             'images2/hero-palms-left.png 1x, ' +
-                             'images2/hero-palms-left@2x.png 2x'
+                             'images/hero-palms-left.png 1x, ' +
+                             'images/hero-palms-left@2x.png 2x'
                          }
-                         src={'images2/hero-palms-left.png'}
+                         src={'images/hero-palms-left.png'}
                     />
                     <img className='hero-img-palms hero-img-palms-right'
                          srcSet={
-                             'images2/hero-palms-right.png 1x, ' +
-                             'images2/hero-palms-right@2x.png 2x'
+                             'images/hero-palms-right.png 1x, ' +
+                             'images/hero-palms-right@2x.png 2x'
                          }
-                         src={'images2/hero-palms-right.png'}
+                         src={'images/hero-palms-right.png'}
                     />
                     <img className='hero-img-logo'
                          srcSet={
-                             'images2/hero-logo.png 1x, ' +
-                             'images2/hero-logo@2x.png 2x'
+                             'images/hero-logo.png 1x, ' +
+                             'images/hero-logo@2x.png 2x'
                          }
-                         src={'images2/hero-logo.png'}
+                         src={'images/hero-logo.png'}
                     />
                     <div className='hero-meme'><Vitalik/></div>
                 </div>

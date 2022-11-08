@@ -19,10 +19,10 @@ const Section = (props) => {
             </div>
             <img className='section-image'
                  srcSet={
-                     'images2/' + imgName + '.png 1x, ' +
-                     'images2/' + imgName + '@2x.png 2x'
+                     'images/' + imgName + '.png 1x, ' +
+                     'images/' + imgName + '@2x.png 2x'
                  }
-                 src={'images2/' + imgName + '.png'}
+                 src={'images/' + imgName + '.png'}
             />
         </div>
     )
