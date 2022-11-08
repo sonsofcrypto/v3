@@ -116,6 +116,22 @@
     left: 10%;
 }
 
+.hero-meme-pepe {
+    position: absolute;
+    right: 18%;
+    bottom: 30%;
+    z-index: 17;
+    width: 8%;
+}
+
+.hero-meme-wojak-bliss {
+    position: absolute;
+    left: 18%;
+    bottom: 30%;
+    z-index: 17;
+    width: 8%;
+}
+
 @media only screen and (max-width: 900px) {
     .hero-container {
         height: calc(100vw * 1.0);

@@ -10,6 +10,20 @@ const Hero = (props) => {
                 <div className='hero-img-stars'></div>
                 <div className='hero-img-mountains'></div>
                 <div className='hero content-wrapper content-wrapper-padding'>
+                    <img className='hero-meme-wojak-bliss'
+                         srcSet={
+                             'images2/meme-wojak-bliss.png 1x, ' +
+                             'images2/meme-wojak-bliss@2x.png 2x'
+                         }
+                         src={'images2/meme-wojak-bliss.png'}
+                    />
+                    <img className='hero-meme-pepe'
+                         srcSet={
+                             'images2/meme-pepe.png 1x, ' +
+                             'images2/meme-pepe@2x.png 2x'
+                         }
+                         src={'images2/meme-pepe.png'}
+                    />
                     <img className='hero-img-palms hero-img-palms-left'
                          srcSet={
                              'images2/hero-palms-left.png 1x, ' +
